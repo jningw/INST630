@@ -1,0 +1,118 @@
+{
+    "showProgressBar": "bottom",
+    "firstPageIsStarted": true,
+    "startSurveyText": "Start",
+    "pages": [
+        {
+            "questions":
+                {
+                    "type": "html",
+                    "title": "Hawaii Activites",
+                    "html": "You are about to start the planning survey. <br/>You have 2 minutes for every selection screen and 10 minutes for the whole survey of 5 days of planning.<br/>Please click on <b>'Start'</b> button when you are ready."
+                }
+        }, 
+        {
+            "questions": 
+                {
+                    "type": "imagepicker",
+                    "name": "day1",
+                    "title": "What should I do on Day 1?",
+                    "choicesOrder": "random",
+                    "selectionStatus":"choiceOne",
+                    "choices": [
+                    {
+                    "choiceNumber": "1",
+                    "value1": "Turtle Canyon Catamaran Snorkel Cruise",
+                    "imageLink1": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/06/77/93/9b.jpg"
+                    }, {
+                    "choiceNumber": "2",
+                    "value2": "1-Hour Guided Hawaiian Parasailing in Waikiki",
+                    "imageLink2": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/02/0c/ed.jpg"
+                    }
+                ]
+                }
+            
+        }, {
+            "questions": 
+                {
+                    "type": "imagepicker",
+                    "name": "day2",
+                    "title": "What should I do on Day 2?",
+                    "choicesOrder": "random",
+                    "selectionStatus":"choiceOne",
+                    "choices": [
+                    {
+                    "choiceNumber": "1",
+                    "value1": "Diamond Head State Monument",
+                    "imageLink1": "https://greatruns.com/wp-content/uploads/2016/10/Diamond-Head-700x400.jpg"
+                    }, {
+                    "choiceNumber": "2",
+                    "value2": "Koko Crater Railway Trail",
+                    "imageLink2": "https://s29081.pcdn.co/wp-content/uploads/2016/05/DSC02440-scaled.jpg.optimal.jpg"
+                    }
+                    ]
+                }
+        }, {
+            "questions": 
+                {
+                    "type": "imagepicker",
+                    "name": "day3",
+                    "title": "What should I do on Day 3?",
+                    "choicesOrder": "random",
+                    "selectionStatus":"choiceOne",
+                    "choices": [
+                            {
+                            "choiceNumber": "1",
+                            "value1": "Waikiki Beach",
+                            "imageLink1": "https://www.islands.com/resizer/vB3VUuFtvlLG9PixLZkQ7Kk3wwo=/760x508/arc-anglerfish-arc2-prod-bonnier.s3.amazonaws.com/public/ZURNW7LSTASM7N76IFD5QTEDYU.jpg"
+                            }, {
+                            "choiceNumber": "2",
+                            "value2": "Hanauma Bay",
+                            "imageLink2": "https://hanaumabaysnorkel.com/wp-content/uploads/2018/07/dreamstime_l_35917897.jpg"
+                            }
+                            ]
+                        }
+        }, {
+            "questions": 
+                {
+                    "type": "imagepicker",
+                    "name": "day4",
+                    "title": "What should I do on Day 4?",
+                    "choicesOrder": "random",
+                    "selectionStatus":"choiceOne",
+                    "choices": [
+                    {
+                    "choiceNumber": "1",
+                    "value1": "Manoa Falls",
+                    "imageLink1": "https://i.ytimg.com/vi/ioAuq8wW9zU/maxresdefault.jpg"
+                    }, {
+                    "choiceNumber": "2",
+                    "value2": "Lulumahu Waterfall",
+                    "imageLink2": "https://hellojetlag.com/wp-content/uploads/2018/06/Lulumahu-Falls1.jpg"
+                    }
+                    ]
+                }
+        }, {
+            "questions": 
+                {
+                    "type": "imagepicker",
+                    "name": "day5",
+                    "title": "What should I do on Day 5?",
+                    "choicesOrder": "random",
+                    "selectionStatus":"choiceOne",
+                    "choices": [
+                    {
+                    "choiceNumber": "1",
+                    "value1": "Pearl Harbor National Memorial",
+                    "imageLink1": "https://www.pearlharborhistoricsites.org/ugc/_654x307_crop_center-center_none/am-1.jpg"
+                    }, {
+                    "choiceNumber": "2",
+                    "value2": "Iolani Palace",
+                    "imageLink2": "https://www.nps.gov/common/uploads/place/nri/20170308/places/D611831F-1DD8-B71B-0B3F0BF4B5076EA7/D611831F-1DD8-B71B-0B3F0BF4B5076EA7.JPG"
+                    }
+                    ]
+                }
+        }
+    ],
+    "completedHtml": "Thank you for completing the survery! Your help is appreciated."
+}
